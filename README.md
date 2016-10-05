@@ -1,3 +1,5 @@
+## git 协作流程
+
 1、在本地[创建SSH Key](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374385852170d9c7adf13c30429b9660d0eb689dd43a000)
 ```bash
 $ ssh-keygen -t rsa -C "youremail@example.com"
@@ -14,15 +16,16 @@ $ git checkout -b dev
 $ git pull origin dev
 ```
 
-4、[创建](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840038939c291467cc7c747b1810aab2fb8863508000)个人分支 yourname
+4、[创建](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840038939c291467cc7c747b1810aab2fb8863508000)个人分支 yourbranch
 ```bash
-$ git checkout -b yourname
+$ git checkout -b yourbranch
+>>>>>>> dev
 ```
 
 5、个人分支完成后，[合并](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840038939c291467cc7c747b1810aab2fb8863508000)至 dev
 ```bash
 $ git checkout dev
-$ git merge --no-ff -m"提交信息" dev
+$ git merge --no-ff -m"提交信息" yourbranch
 ```
 
 6、将dev[推送](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013752340242354807e192f02a44359908df8a5643103a000)至远程库
@@ -45,3 +48,7 @@ $ git pull origin dev
 [分支管理策略](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013758410364457b9e3d821f4244beb0fd69c61a185ae0000)
 
 [多人协作](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013760174128707b935b0be6fc4fc6ace66c4f15618f8d000)
+
+[创建与合并分支](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840038939c291467cc7c747b1810aab2fb8863508000)
+
+[解决冲突](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840202368c74be33fbd884e71b570f2cc3c0d1dcf000)

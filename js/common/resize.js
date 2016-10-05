@@ -3,12 +3,12 @@
 	    resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
 	    recalc = function() {
 	        //设置根字体大小
-	        var myfontSize = 20 * (docEl.clientWidth/320);
+	        var myfontSize = 20 * (docEl.clientWidth/375);
 	        console.log(myfontSize);
 	        if(myfontSize > 30){
 	        	docEl.style.fontSize = "30px";
 	        }else{
-	        	docEl.style.fontSize = 20 * (docEl.clientWidth/320) + 'px';
+	        	docEl.style.fontSize = 20 * (docEl.clientWidth/375) + 'px';
 	        }
 //			var myfontSize = 20 * (docEl.clientWidth/375);
 //			docEl.style.fontSize = myfontSize + "px";
