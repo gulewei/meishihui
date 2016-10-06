@@ -19,6 +19,7 @@ $ git pull origin dev
 4、[创建](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840038939c291467cc7c747b1810aab2fb8863508000)个人分支 yourbranch
 ```bash
 $ git checkout -b yourbranch
+>>>>>>> dev
 ```
 
 5、个人分支完成后，[合并](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001375840038939c291467cc7c747b1810aab2fb8863508000)至 dev
