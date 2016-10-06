@@ -1,3 +1,4 @@
+@charset "utf-8";
 /*
  * 作者：顾乐威
  * 描述：[我要回答] 页面样式
@@ -6,6 +7,9 @@
 
 /* 页面导航公用样式 */
 @import url("../common/question_nav/question_nav.css");
+
+/* 字体大小 */
+body, a, span, input { font-size: 0.8rem; }
 
 /* 页面左右边距的包裹层 */
 .content { padding: 0 0.55rem;}
@@ -17,7 +21,7 @@ header { height: 2.5rem;}
 form .content > section { display: flex; flex-direction: column; }
 
 /* 输入区域标题 */
-section > label, section > span { font-size: 0.6rem; color: #bab3ab; display: flex; align-items: center; height: 2.2rem; }
+section > label, section > span { /*font-size: 0.6rem;*/ color: #bab3ab; display: flex; align-items: center; height: 2.2rem; }
 
 /* 问题框 */
 #askQuestion { margin-bottom: 0.4rem; height: 1.25rem; border: 0.0125rem solid #afa8a0; border-radius: 0.225rem; }
@@ -27,6 +31,6 @@ section > label, section > span { font-size: 0.6rem; color: #bab3ab; display: fl
 
 /* 提交按钮 */
 form .content .submit { flex-direction: row; justify-content: flex-end;}
-#askSubmit { width: 2.55rem; height: 1.325rem; background-color: #fa7e3e; color: #fff; font-size: 0.6rem; display: flex; justify-content: center; align-items: center; border: 0; border-radius: 0.125rem;}
+#askSubmit { width: 2.55rem; height: 1.325rem; background-color: #fa7e3e; color: #fff; /*font-size: 0.6rem;*/ display: flex; justify-content: center; align-items: center; border: 0; border-radius: 0.125rem;}
 
 
