@@ -33,3 +33,4 @@ var com = (function () {
 		footerCom: footerCom
 	}
 })();
+
