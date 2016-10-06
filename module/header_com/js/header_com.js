@@ -9,7 +9,7 @@ $(function () {
 	var
 		nHeader = $("#headerCom"),
 		nFooter = $("#footerCom"),
-		root = "/module/header_com/html/";
+		root = "../module/header_com/html/";
 
 	// 添加DOM结构
 	$.get(root + 'header.html', function(response){
