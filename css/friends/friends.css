@@ -7,10 +7,10 @@ section{
 }
 .friends-h3{
 	display: flex;
-	height: 5.2rem;
+	height: 2.6rem;
 	width: 100%;
 	box-sizing: border-box;
-	border-bottom: 0.05rem solid #e9e5e2;
+	border-bottom: 0.025rem solid #e9e5e2;
 }
 .friends-tit{
 	display: block;
@@ -18,53 +18,57 @@ section{
 	color:#afa8a0;
 	font-weight: 100;
 	text-align: center;
-	padding:2.5rem 0 1.85rem;
-	font-size:1.3rem;
+	padding:1.25rem 0 0.925rem;
+	font-size:0.65rem;
 }
 .friends-list{
 	display: flex;
-	height: 7.05rem;
+	height: 3.525rem;
 	box-sizing: border-box;
-	border-bottom:0.05rem solid #e9e5e2;
+	border-bottom:0.025rem solid #e9e5e2;
 	width:100%;
 }
 
 .friends-user{
 	display: flex;
-	border-left: 0.05rem solid #e9e5e2;
-	border-right: 0.05rem solid #e9e5e2;
+	border-left: 0.025rem solid #e9e5e2;
+	border-right: 0.025rem solid #e9e5e2;
 	box-sizing: border-box;
 	width:68%;
-	padding:0.9rem 0;
+	padding:0.45rem 0;
 	margin:0;
 }
 .friends-img{
 	display: flex;
-	height:5.2rem;
-	width: 7.8rem;
-	border-radius: 50%;
+	height:2.6rem;
+	width: 3.9rem;
 }
 .friends-p1,.friends-p2,.friends-p3,.friends-p4,.friends-p5{
-	height:5.2rem;
-	width: 5.2rem;
-	margin:0 1.1rem 0 1.4rem;
+	height:2.6rem;
+	width: 2.6rem;
+	margin:0 0.55rem 0 0.7rem;
 	border-radius: 50%;
 	
 }
 .friends-p1{
-	background: url(../../imgs/friends/icon1.jpg) no-repeat center;	
+	background:green url(../../imgs/friends/icon1.jpg) no-repeat center;
+	background-size: 100%;	
 }
 .friends-p2{
-	background: url(../../imgs/friends/icon2.jpg) no-repeat center;
+	background: url(../../imgs/friends/icon2.jpg) no-repeat top center;
+	background-size: 120%;
 }
 .friends-p3{
 	background: url(../../imgs/friends/icon3.jpg) no-repeat center;
+	background-size: 110%;
 }
 .friends-p4{
 	background: url(../../imgs/friends/icon4.jpg) no-repeat center;
+	background-size: 120%;
 }
 .friends-p5{
 	background: url(../../imgs/friends/icon5.jpg) no-repeat center;
+	background-size: 100%;
 }
 .friends-data{
 	display: flex;
@@ -72,14 +76,14 @@ section{
 	flex-flow: column nowrap;
 }
 .friends-name{
-	font-size: 1.2rem;
+	font-size: 0.6rem;
 	color:#373736;
 	width: 100%;
-	line-height: 3.2rem;
+	line-height: 1.6rem;
 }
 .friends-access{
 	width:100%;
-	font-size: 1.1rem;
+	font-size: 0.55rem;
 	color:#afa8a0;
 }
 
@@ -89,9 +93,9 @@ section{
 
 
 .friends-attention{
-	border-right: 0.05rem solid #e9e5e2;
-	font-size:1.2rem;
-	padding:2.85rem 0;
+	border-right: 0.025rem solid #e9e5e2;
+	font-size:0.6rem;
+	padding:1.425rem 0;
 	color:#fa7e3e;
 	line-height:100%;
 	text-align: center;
@@ -101,15 +105,15 @@ section{
 
 
 .friends-change{
-	height: 6.8rem;
-	line-height:6.6rem;
+	height: 3.4rem;
+	line-height:3.3rem;
 	text-align: center;
 	width: 100%;
 }
 
 
 .friends-prev,.friends-six,.friends-num,.friends-next{
-	padding:1.2rem 0;
+	padding:0.6rem 0;
 	font-size: 1.1rem;
 	color:#373736;
 }
@@ -124,11 +128,11 @@ section{
 	
 }
 .friends-next{
-	padding:1.2rem 0;
+	padding:0.6rem 0;
 }
 
 .friends-current{
-	padding:1.2rem 1.5rem;
+	padding:0.6rem 0.75rem;
 	background: #fa7e3e;
 	color:#fff;
 }
