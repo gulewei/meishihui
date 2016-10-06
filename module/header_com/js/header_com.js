@@ -11,10 +11,10 @@ $(function () {
 		nFooter = $("#footerCom");
 
 	// 添加DOM结构
-	$.get('/module/header_com/html/header.html', function(response){
+	$.get('../module/header_com/html/header.html', function(response){
 	  	nHeader.append(response)
 	});
-	$.get('/module/header_com/html/footer.html', function(response){
+	$.get('../module/header_com/html/footer.html', function(response){
 	  	nFooter.append(response)
 	});
 
