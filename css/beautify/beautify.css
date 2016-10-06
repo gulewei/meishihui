@@ -25,7 +25,7 @@
 --------------------------------------------------------------------*/
 .beautify_figure{height:2.85rem;margin-bottom: 0.75rem;border:1px solid #e9e5e2;}
 .beautify_figure figcaption{flex:1;}
-.beautify_figure figcaption img{width:100%;height:auto;}
+.beautify_figure figcaption img{width:100%;height:auto;display: block;}
 .beautify_figure .figurecon{flex:3.9;color:#fa7e3e;text-indent:0.8rem;}
 .beautify_lastlist{margin-bottom:none;}
 
