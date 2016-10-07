@@ -14,9 +14,6 @@ body, a, span, input { font-size: 0.8rem; }
 /* 页面左右边距的包裹层 */
 .content { padding: 0 0.55rem;}
 
-/* 头部 */
-header { height: 2.5rem;}
-
 /* 输入区域 */
 form .content > section { display: flex; flex-direction: column; }
 
@@ -24,13 +21,13 @@ form .content > section { display: flex; flex-direction: column; }
 section > label, section > span { /*font-size: 0.6rem;*/ color: #bab3ab; display: flex; align-items: center; height: 2.2rem; }
 
 /* 问题框 */
-#askQuestion { margin-bottom: 0.4rem; height: 1.25rem; border: 0.0125rem solid #afa8a0; border-radius: 0.225rem; }
+#askQuestion { margin-bottom: 0.4rem; height: 1.25rem; border: 1px solid #afa8a0; border-radius: 0.225rem; }
 
 /* 问题描述框 */
-#askDescription { overflow: hidden; margin-bottom: 0.75rem; height: 10rem; border: 0.0125rem solid #afa8a0;  border-radius: 0.225rem; resize: none; }
+#askDescription { overflow: hidden; margin-bottom: 0.75rem; height: 10rem; border: 1px solid #afa8a0;  border-radius: 0.225rem; resize: none; }
 
 /* 提交按钮 */
 form .content .submit { flex-direction: row; justify-content: flex-end;}
-#askSubmit { width: 2.55rem; height: 1.325rem; background-color: #fa7e3e; color: #fff; /*font-size: 0.6rem;*/ display: flex; justify-content: center; align-items: center; border: 0; border-radius: 0.125rem;}
+#askSubmit { margin-bottom: 0.75rem; width: 2.55rem; height: 1.325rem; background-color: #fa7e3e; color: #fff; /*font-size: 0.6rem;*/ display: flex; justify-content: center; align-items: center; border: 0; border-radius: 0.125rem;}
 
 
