@@ -73,8 +73,11 @@ header { height: 2.5rem;}
 .answers_list a span:nth-child(2){color:#aca59d;font-size:1rem}
 
 .answers_lastsec{margin-bottom: 1.15rem;}
-
-
+/*--------------------------------------------------------------------
+	内容：   点赞后的样式设置
+--------------------------------------------------------------------*/
+.ans_active{background: #FA7E3E;}
+.ans_moreAnswers .ans_active  a span{color:#fff;}
 
 
 
