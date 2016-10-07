@@ -1,7 +1,7 @@
 #form{
-	width:100%;height:auto;margin-top:2.45rem;
+	width:100%;height:auto;/*margin-top:2.45rem;*/
 }
-
+.error_tips{height:2.45rem;width:95%;margin:0 auto;color:red;font-size:0.7rem;display: flex;justify-content:flex-end;align-items: center;}
 /*
 	定义登录页面各个盒子间相同的样式
 */
