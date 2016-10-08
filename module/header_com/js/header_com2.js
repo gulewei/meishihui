@@ -12,7 +12,7 @@ $(function () {
 		root = "module/header_com/html/";
 
 	// 添加DOM结构
-	$.get(root + 'header.html', function(response){
+	$.get(root + 'header2.html', function(response){
 	  	nHeader.append(response)
 	});
 	$.get(root + 'footer2.html', function(response){

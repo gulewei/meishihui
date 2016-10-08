@@ -1,0 +1,55 @@
+<div class="com-header-wraper">
+	<a href="index.html" class="com-header-logo">美食汇</a>
+	<span>
+		<a href="javascript:;" class="com-header-search"></a>
+		<a href="javascript:;" class="com-header-squire"></a>
+	</span>
+	<div class="com-header-hidden">
+		<p class="com-hide-links">
+			<a href="index.html"><span class="iconfont">&#xe60c;</span><span class="title">首页</span></a>
+			<a href="html/menus.html"><span class="iconfont">&#xe642;</span><span class="title">菜谱大全</span></a>
+			<a href="html/home_cooking.html"><span class="iconfont">&#xe62b;</span><span class="title">家常菜谱</span></a>
+			<a href="html/questions.html"><span class="iconfont">&#xe6e8;</span><span class="title">美食问答</span></a>
+		</p>
+		<p class="com-hide-links">
+			<a href="html/healthy.html"><span class="iconfont">&#xe602;</span><span class="title">健康食疗</span></a>
+			<a href="html/categories.html"><span class="iconfont">&#xe64c;</span><span class="title">食谱分类</span></a>
+			<a href="html/friends.html"><span class="iconfont">&#xe698;</span><span class="title">厨友排行</span></a>
+			<a href="html/favorites.html"><span class="iconfont">&#xe641;</span><span class="title">美食收藏</span></a>
+		</p>
+		<p class="com-hide-login">
+			<a href="html/login.html">登录</a>
+			<a href="html/register.html">注册</a>
+		</p>
+		<p class="com-hide-close">×</p>
+	</div>
+</div>
+
+<script type="text/javascript">
+	// 隐藏区
+	var
+		squire = $(".com-header-squire"),
+		hidden = $(".com-header-hidden"),
+		close = $(".com-hide-close")
+		hName = "com-header-hidden",
+		sName = "com-header-show";
+
+	squire.on('tap', function () {
+		var className = hidden.attr('class');
+
+		if (className === hName) {
+			hidden.attr({class: sName});
+		}
+		if (className === sName) {
+			hidden.attr({class: hName});
+		}
+	});
+
+	close.on("tap", function () {
+		hidden.attr({class: hName});
+	})
+
+	// 搜索区
+	var
+		search = $(".com-header-search");
+</script>
