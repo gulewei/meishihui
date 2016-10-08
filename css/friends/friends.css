@@ -3,7 +3,7 @@ section{
 	background: #fff8f0;
 	width:100%;
 	flex-flow: column nowrap;
-	
+
 }
 .friends-h3{
 	display: flex;
@@ -20,7 +20,7 @@ section{
 	font-weight: 100;
 	text-align: center;
 	padding:1.25rem 0 0.925rem;
-	font-size:14px;
+	font-size:16px;
 }
 
 .friends-content-wrap{
@@ -69,11 +69,11 @@ section{
 	width: 2.6rem;
 	margin:0 0.55rem 0 0.7rem;
 	border-radius: 50%;
-	
+
 }
 .friends-p1{
 	background:green url(../../imgs/friends/icon1.jpg) no-repeat center;
-	background-size: 100%;	
+	background-size: 100%;
 }
 .friends-p2{
 	background: url(../../imgs/friends/icon2.jpg) no-repeat top center;
@@ -97,14 +97,14 @@ section{
 	flex-flow: column nowrap;
 }
 .friends-name{
-	font-size: 12px;
+	font-size: 16px;
 	color:#373736;
 	width: 100%;
 	line-height: 1.6rem;
 }
 .friends-access{
 	width:100%;
-	font-size: 10px;
+	font-size: 14px;
 	color:#afa8a0;
 }
 
@@ -114,7 +114,7 @@ section{
 
 .friends-attention{
 	border-right: 0.025rem solid #e9e5e2;
-	font-size:12px;
+	font-size:16px;
 	padding:1.425rem 0;
 	color:#fa7e3e;
 	line-height:100%;
@@ -134,7 +134,7 @@ section{
 
 .friends-prev,.friends-six,.friends-num,.friends-next{
 	padding:0.6rem 0;
-	font-size: 12px;
+	font-size: 16px;
 	color:#373736;
 }
 

@@ -3,14 +3,14 @@ section{
 	background: #fff8f0;
 	width:100%;
 	flex-flow: column nowrap;
-	
+
 }
 .categories-h3{
 	display: flex;
 	justify-content: center;
 	width: 100%;
-	
-	
+
+
 }
 .categories-tit{
 	display: flex;
@@ -22,7 +22,7 @@ section{
 	font-weight: 100;
 	text-align: center;
 	padding:1.25rem 0 0.925rem;
-	font-size:14px;
+	font-size:16px;
 	box-sizing: border-box;
 	border-bottom: 0.05rem solid #e9e5e2;
 }
@@ -32,7 +32,7 @@ section{
 	display: flex;
 	width:94.27%;
 	color:#373736;
-	font-size: 12px;
+	font-size: 16px;
 	flex-flow: column nowrap;
 }
 .categories-span{
@@ -51,7 +51,7 @@ section{
 .categories-span-right,.categories-span-right-wrap{
 	float: right;
 	display: flex;
-	font-size: 10px;
+	font-size: 14px;
 }
 
 .categories-span-left-wrap,.categories-span-right-wrap{
@@ -85,7 +85,7 @@ section{
 
 .categories-prev,.categories-six,.categories-num,.categories-next{
 	padding:0.6rem 0;
-	font-size: 12px;
+	font-size: 16px;
 	color:#373736;
 }
 
@@ -93,7 +93,7 @@ section{
 	padding:0.6rem 0.75rem;
 }
 .categories-current{
-	
+
 	background: #fa7e3e;
 	color:#fff;
 }

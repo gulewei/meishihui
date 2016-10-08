@@ -11,7 +11,7 @@ section{
 	height: 3.575rem;
 	width: 94.27%;
 	align-items: center;
-	
+
 }
 .kitchen-i{
 	display: inline-flex;
@@ -20,11 +20,11 @@ section{
 	border-radius: 50%;
 	margin:0 0.25rem 0 0.45rem;
 	background:green url(../../imgs/friends/icon1.jpg) no-repeat center;
-	background-size: 100%;	
+	background-size: 100%;
 }
 
 .kitchen-span{
-	font-size:12px;
+	font-size:16px;
 	color:#52514f;
 }
 
@@ -41,10 +41,10 @@ section{
 .kitchen-li{
 	display: inline-flex;
 	margin-right:5%;
-	
+
 }
 .kitchen-nav-a{
-   font-size:12px;
+   font-size:16px;
    color:#373736;
 }
 .kitchen-a-current{
@@ -82,7 +82,7 @@ section{
 
 .kitchen-i1{
 	background: url(../../imgs/kitchen/kitchen-icon1.jpg) no-repeat center;
-	background-size: 105%;	
+	background-size: 105%;
 }
 .kitchen-i2{
 	background: url(../../imgs/kitchen/kitchen-icon2.jpg) no-repeat center;
@@ -104,27 +104,28 @@ section{
 .kitchen-list-dd{
 	/*margin-top: -200px;*/
 	height:2.95rem;
-	display: inline-flex;
+	display: flex;
 	width:79.49%;
-	flex-flow: column wrap;
+	flex-direction: column;
+	justify-content: center;
 	border: 0.025rem solid #e9e5e2;
 	box-sizing: border-box;
 	border-left:0;
-	
+
 }
 .kitchen-p1,.kitchen-p2{
 	width: 100%;
 	text-indent: 2.87%;
 }
 .kitchen-p1{
-	margin-top:0.65rem;
-	font-size:12px;
+	/*margin-top:0.65rem;*/
+	font-size:16px;
 	color:#fa7e3e;
 }
 
 .kitchen-p2{
-	margin-top:0.4rem;
-	font-size:10px;
+	margin-top:0.2rem;
+	font-size:14px;
 	color:#99948d;
 }
 .kitchen-span2{

@@ -18,5 +18,7 @@ $(function(){
 			name(1)
 		}
 	})
-	
+	$(".kitchen-list-li").on("tap",function(){
+		window.open("items.html")
+	})
 })

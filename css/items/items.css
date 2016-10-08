@@ -17,7 +17,7 @@ section{
 	font-weight: 100;
 	justify-content: center;
 	padding:1.25rem 0 0.925rem;
-	font-size:14px;
+	font-size:16px;
 }
 
 .items-banner-wrap{
@@ -36,7 +36,7 @@ section{
 	display: flex;
 	width:200%;
 	flex-flow: row nowrap;
-	
+
 	left:0;
 	top:0;
 	/*animation:move 1s linear infinite;*/
@@ -74,14 +74,14 @@ section{
 	width:94.14%;
 	display: flex;
 	flex-flow:column nowrap;
-	font-size:10px;
+	font-size:16px;
 	color:#373736;
 }
 
 .items-content1-tit,.items-content2-tit{
 	display: flex;
 	width:100%;
-	font-size:12px;
+	font-size:16px;
 	align-items: center;
 }
 
@@ -146,7 +146,7 @@ section{
 .items-dd{
 	display: flex;
 	height:1.525rem;
-	font-size:12px;
+	font-size:16px;
 	color:#2d2c2b;
 	justify-content: center;
 	align-items: center;
