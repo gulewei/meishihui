@@ -10,7 +10,7 @@ $(function(){
 	$(".categories-prev").on("tap",function(){
 		var num=parseInt($(".categories-num").html());
 		if(num<6){
-			$(".categories-next").removeClass("categories-current").addClass("categories-current");
+			$(".categories-next").removeClass("categories-current").addClass("categories-current");	
 		}
 		if(num>2){
 			$(".categories-prev").removeClass("categories-current").addClass("categories-current");
@@ -21,10 +21,10 @@ $(function(){
 			name(num-2);
 			$(".categories-prev").removeClass("categories-current");
 		}else{
-			alert("已经是第一页了")
+			alert("已经是第一页了")	
 		}
 	})
-
+	
 	$(".categories-next").on("tap",function(){
 		var num=parseInt($(".categories-num").html());
 		if(num>0){
@@ -39,8 +39,13 @@ $(function(){
 			name(num);
 			$(".categories-next").removeClass("categories-current");
 		}else{
-			alert("已经是最后页了");
+			alert("已经是最后页了");			
 		}
 	})
-
+	$(".categories-span-left-wrap").on("tap",function(){
+		window.open("../html/menus.html");
+	})
+	$(".categories-span-right-wrap").on("tap",function(){
+		window.open("../html/menus.html");
+	})
 })
