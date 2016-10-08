@@ -1,5 +1,9 @@
 $(function(){
 	/*
+	 	加载页面后先清空之前登录或者注册页面遗留的错误提示
+	*/
+	$(".error_tips").html("");
+	/*
 	 	Email或者手机号码的验证部分
 	*/
 	var btn1,btn2,btn3;
