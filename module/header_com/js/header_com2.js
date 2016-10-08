@@ -15,7 +15,7 @@ $(function () {
 	$.get(root + 'header.html', function(response){
 	  	nHeader.append(response)
 	});
-	$.get(root + 'footer.html', function(response){
+	$.get(root + 'footer2.html', function(response){
 	  	nFooter.append(response)
 	});
 
