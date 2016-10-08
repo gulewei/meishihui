@@ -1,3 +1,4 @@
 .project
 unpackage/
 node_modules/
+*.pptx
