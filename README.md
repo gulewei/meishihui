@@ -1,3 +1,13 @@
+## 项目地址
+[gitpages 托管]( https://venecy.github.io/meishihui/)
+
+[heroku 托管](https://meishihui.herokuapp.com/)
+
+## 运行环境
+nodejs 4.4.7
+express 4.13.3
+
+
 ## git 协作流程
 
 1、在本地[创建SSH Key](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374385852170d9c7adf13c30429b9660d0eb689dd43a000)
