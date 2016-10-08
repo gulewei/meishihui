@@ -89,20 +89,11 @@ section{
 	color:#373736;
 }
 
-.categories-prev{
-	
-}
-.categories-six{
-	
-}
-.categories-num{
-}
-.categories-next{
-	padding:0.6rem 0;
-}
-
-.categories-current{
+.categories-prev,.categories-next{
 	padding:0.6rem 0.75rem;
+}
+.categories-current{
+	
 	background: #fa7e3e;
 	color:#fff;
 }
