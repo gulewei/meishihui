@@ -20,7 +20,7 @@
 	margin: 1rem auto;
 }
 #container .myself-info .mi-left{
-	width: 30%;	
+	width: 30%;
 	width: 2rem;
 	border-radius: 50%;
 	height: 2rem;
@@ -43,15 +43,15 @@
 	position: absolute;
 	left: 1.5rem;
 	bottom: 0.5rem;
-	font-size: 0.8rem;
+	font-size: 16px;
 }
 #container .myself-info .mi-right{
-	width: 70%;	
+	width: 70%;
 }
 #container .myself-info .mi-right h4{
 	display: flex;
 	flex-direction: column;
-	font-size: 1rem;
+	font-size: 18px;
 	border-left: 1px solid #ccc;
 	text-align: center;
 	justify-content: center;
@@ -80,10 +80,10 @@
 	width: 95%;
 	color: #999;
 	font-weight: normal;
-	font-size: 1rem;
+	font-size: 18px;
 	margin-top: 0.025rem;
 	margin-bottom: 0.025rem;
-	margin-left: 0.5rem; 
+	margin-left: 0.5rem;
 }
 #container .no-classify .goods{
 	/*margin-right: 0.225rem;*/
@@ -102,16 +102,16 @@
 	justify-content: center;
 	align-items: center;
 	padding: 0.425rem 0;
-	font-size: 0.8rem;
+	font-size: 16px;
 
 }
 
 #container .classify h3{
 	color: #999;
 	font-weight: normal;
-	font-size: 1rem;
+	font-size: 16px;
 	margin-top: 0.15rem;
-	margin-left: 0.5rem; 
+	margin-left: 0.5rem;
 	margin-bottom: 0.25rem;
 }
 

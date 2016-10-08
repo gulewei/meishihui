@@ -12,6 +12,7 @@
 	margin: 0 auto;
 }
 h5{
+	font-weight: normal;
 	color: #99948d;
 	text-align: center;
 	line-height: 50px;
@@ -23,13 +24,14 @@ h5{
 	background-color: #f2f0ee;
 }
 #container .meat-title span{
+	font-size: 16px;
 	display: block;
 	padding: 10px 10px;
 }
 #container .meat ul{
 	display: inline-flex;
 	flex-direction: row;
-	font-size: 0.85rem;
+	font-size: 16px;
 }
 #container .meat ul li{
 	padding: 10px 5px;
@@ -46,6 +48,7 @@ h5{
 }
 #container .fish-title span{
 	display: block;
+	font-size: 16px;
 	padding: 10px 10px;
 }
 #container .fish ul{
@@ -67,6 +70,7 @@ h5{
 	background-color: #f2f0ee;
 }
 #container .others-title span{
+	font-size: 16px;
 	display: block;
 	padding: 10px 10px;
 }
@@ -89,6 +93,7 @@ h5{
 	background-color: #f2f0ee;
 }
 #container .Root-vegetable-title span{
+	font-size: 16px;
 	display: block;
 	padding: 10px 10px;
 }
@@ -111,6 +116,7 @@ h5{
 	background-color: #f2f0ee;
 }
 #container .Leaf-vegetable-title span{
+	font-size: 16px;
 	display: block;
 	padding: 10px 10px;
 }
