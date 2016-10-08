@@ -6,7 +6,7 @@
  */
 
 /* 页头容器 */
-.com-header-wraper { padding: 0 0.55rem; height: 2.375rem; border-bottom: 0.1rem solid #fa7e3e; background: url(../imgs/header_bg.png) no-repeat; background-size: 100%; display: flex; justify-content: space-between; align-items: center;}
+.com-header-wraper { position: relative; padding: 0 0.55rem; height: 2.375rem; border-bottom: 0.1rem solid #fa7e3e; background: url(../imgs/header_bg.png) no-repeat; background-size: 100%; display: flex; justify-content: space-between; align-items: center;}
 .com-header-wraper a, .com-header-wraper span { display: flex; }
 a.com-header-logo { text-indent: -99999px; width: 5.9rem; height: 100%;}
 a.com-header-empty { width: 1rem; height: 1rem;}
@@ -27,17 +27,18 @@ a.com-header-search, a.com-header-squire { width: 1.15rem; height: 0.95rem; marg
 .com-footer-nav { display: flex; flex-direction: column; width: 94%; margin: 0 auto; }
 .com-footer-nav a { display: flex; justify-content: space-between; align-items: center; height: 2.5rem; font-size: 0.7rem; position: relative;}
 .com-footer-nav a:after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; border-bottom: 1px solid #eae6e3; transform: scaleY(.5); transform-origin: 0 0;}
+.com-footer-nav i { font-style: normal; }
 
 /* copyright */
 .com-copy-right { margin-top: 2.25rem; height: 1.35rem; font-size: 0.8rem; color: #fa7e3e; text-align: center; }
 
 /* iconfont */
 @font-face {font-family: 'iconfont';
-    src: url('../imgs/iconfonts/iconfont.eot'); /* IE9*/
-    src: url('../imgs/iconfonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../imgs/iconfonts/iconfont.woff') format('woff'), /* chrome、firefox */
-    url('../imgs/iconfonts/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url('../imgs/iconfonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+    src: url('../imgs/iconfonts_header/iconfont.eot'); /* IE9*/
+    src: url('../imgs/iconfonts_header/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../imgs/iconfonts_header/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../imgs/iconfonts_header/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../imgs/iconfonts_header/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
 }
 .iconfont{
     font-family:"iconfont" !important;
@@ -46,3 +47,20 @@ a.com-header-search, a.com-header-squire { width: 1.15rem; height: 0.95rem; marg
     -webkit-text-stroke-width: 0.2px;
     -moz-osx-font-smoothing: grayscale;
 }
+
+
+/* 页头隐藏区 */
+.com-header-hidden { display: none; }
+.com-header-show { position: absolute; top: 100%; left: 0; right: 0; z-index: 9999; background-color:  #d9d9d9; padding-top: 0.5rem; }
+.com-header-show > p { display: flex; justify-content: space-around; }
+
+p.com-hide-links { height: 3.35rem; }
+.com-hide-links a { display: flex; flex: 1; flex-direction: column; align-items: center; justify-content: flex-end;}
+
+.com-hide-links .title { font-size: 14px; color: #fa7e3e;}
+.com-hide-links .iconfont { font-size: 30px; color: #fa7e3e; margin-bottom: 4px;}
+
+p.com-hide-login { margin-top: 1.5rem; padding: 0.25rem 0;}
+.com-hide-login a { display: flex; width: 7.5rem; height: 1.5rem; align-items: center; justify-content: center; font-size: 14px; color: #fff; background-color: #fa7e3e; border-radius: 0.75rem; }
+
+p.com-hide-close { font-size: 28px; margin-top: 0.5rem; padding: 0.25rem 0 0.5rem; color: #999; line-height: 1.1rem;}
