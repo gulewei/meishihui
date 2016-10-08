@@ -4,6 +4,14 @@
 		<a href="javascript:;" class="com-header-search"></a>
 		<a href="javascript:;" class="com-header-squire"></a>
 	</span>
+	<div class="com-header-box">
+		<div class="com-search-wraper">
+			<form class="com-search-box" action="html/beautify.html" method="post">
+				<input type="text" value="" />
+				<input type="submit" value="搜索"/>
+			</form>
+		</div>
+	</div>
 	<div class="com-header-hidden">
 		<p class="com-hide-links">
 			<a href="index.html"><span class="iconfont">&#xe60c;</span><span class="title">首页</span></a>
@@ -39,6 +47,8 @@
 
 		if (className === hName) {
 			hidden.attr({class: sName});
+			searchBox.hide();
+			boxStatu = false;
 		}
 		if (className === sName) {
 			hidden.attr({class: hName});
@@ -52,4 +62,22 @@
 	// 搜索区
 	var
 		search = $(".com-header-search");
+
+
+	// 页脚高度
+	var
+		searchBtn = $(".com-header-search"),
+		searchBox = $(".com-header-box"),
+		boxStatu = false;
+
+	searchBtn.on("tap", function () {
+		if(!boxStatu) {
+			searchBox.show();
+			hidden.attr({class: hName});
+		}else {
+			searchBox.hide();
+		}
+		boxStatu = !boxStatu;
+	});
+
 </script>

@@ -9,7 +9,7 @@
 @import url("../common/question_nav/question_nav.css");
 
 /* 字体大小 */
-body, a, span, input { font-size: 0.8rem; }
+body, a, span, input { font-size: 16px; }
 
 /* 页面左右边距的包裹层 */
 .content { padding: 0 0.55rem;}

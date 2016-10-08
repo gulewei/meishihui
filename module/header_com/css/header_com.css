@@ -25,12 +25,12 @@ a.com-header-search, a.com-header-squire { width: 1.15rem; height: 0.95rem; marg
 
 /* 导航链接 */
 .com-footer-nav { display: flex; flex-direction: column; width: 94%; margin: 0 auto; }
-.com-footer-nav a { display: flex; justify-content: space-between; align-items: center; height: 2.5rem; font-size: 0.7rem; position: relative;}
+.com-footer-nav a { display: flex; justify-content: space-between; align-items: center; height: 2.5rem; font-size: 16px; position: relative;}
 .com-footer-nav a:after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; border-bottom: 1px solid #eae6e3; transform: scaleY(.5); transform-origin: 0 0;}
 .com-footer-nav i { font-style: normal; }
 
 /* copyright */
-.com-copy-right { margin-top: 2.25rem; height: 1.35rem; font-size: 0.8rem; color: #fa7e3e; text-align: center; }
+.com-copy-right { margin-top: 2.25rem; height: 1.35rem; font-size: 16px; color: #fa7e3e; text-align: center; }
 
 /* iconfont */
 @font-face {font-family: 'iconfont';
@@ -51,7 +51,7 @@ a.com-header-search, a.com-header-squire { width: 1.15rem; height: 0.95rem; marg
 
 /* 页头隐藏区 */
 .com-header-hidden { display: none; }
-.com-header-show { position: absolute; top: 100%; left: 0; right: 0; z-index: 9999; background-color:  #d9d9d9; padding-top: 0.5rem; }
+.com-header-show { position: absolute; top: 100%; left: 0; right: 0; z-index: 9999; background-color:  #fff8f0; padding-top: 0.5rem; border-bottom: 1px solid #eae6e3; border-top: 0.1rem solid #eae6e3; }
 .com-header-show > p { display: flex; justify-content: space-around; }
 
 p.com-hide-links { height: 3.35rem; }
@@ -63,4 +63,10 @@ p.com-hide-links { height: 3.35rem; }
 p.com-hide-login { margin-top: 1.5rem; padding: 0.25rem 0;}
 .com-hide-login a { display: flex; width: 7.5rem; height: 1.5rem; align-items: center; justify-content: center; font-size: 14px; color: #fff; background-color: #fa7e3e; border-radius: 0.75rem; }
 
-p.com-hide-close { font-size: 28px; margin-top: 0.5rem; padding: 0.25rem 0 0.5rem; color: #999; line-height: 1.1rem;}
+p.com-hide-close { font-size: 28px; margin-top: 0.5rem; padding: 0.25rem 0 0.5rem; color: #999; line-height: 1.1rem; text-align: center;}
+
+/* 顶部搜索 */
+.com-header-box { display: none; position: absolute; top: 100%; left: 0; right: 0; z-index: 9999; background-color:  #fff8f0; padding-top: 0.5rem; border-bottom: 1px solid #eae6e3; border-top: 0.1rem solid #eae6e3;}
+.com-header-box .com-search-wraper { margin-bottom: 0.5rem; background: none;}
+
+
