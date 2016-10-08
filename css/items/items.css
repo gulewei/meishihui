@@ -32,10 +32,22 @@ section{
 }
 
 .items-banner-list{
+	position: relative;
 	display: flex;
 	width:200%;
 	flex-flow: row nowrap;
 	
+	left:0;
+	top:0;
+	/*animation:move 1s linear infinite;*/
+}
+@keyframes move{
+	from{
+		left: 0;
+	}
+	to{
+		left:-100%;
+	}
 }
 
 .items-banner-li{

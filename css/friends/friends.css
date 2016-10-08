@@ -11,6 +11,7 @@ section{
 	width: 100%;
 	box-sizing: border-box;
 	border-bottom: 0.025rem solid #e9e5e2;
+	position: relative;
 }
 .friends-tit{
 	display: block;
@@ -21,6 +22,27 @@ section{
 	padding:1.25rem 0 0.925rem;
 	font-size:0.65rem;
 }
+
+.friends-content-wrap{
+	display: flex;
+	height: 17.625rem;
+	width:100%;
+	position: relative;
+}
+.friends-content{
+	width:100%;
+
+	position: absolute;
+}
+
+.hidden{
+	display: none;
+}
+.show{
+	display: block;
+}
+
+
 .friends-list{
 	display: flex;
 	height: 3.525rem;
@@ -91,7 +113,6 @@ section{
 
 
 
-
 .friends-attention{
 	border-right: 0.025rem solid #e9e5e2;
 	font-size:0.6rem;
@@ -114,25 +135,15 @@ section{
 
 .friends-prev,.friends-six,.friends-num,.friends-next{
 	padding:0.6rem 0;
-	font-size: 1.1rem;
+	font-size: 0.6rem;
 	color:#373736;
 }
 
-.friends-prev{
-	
-}
-.friends-six{
-	
-}
-.friends-num{
-	
-}
-.friends-next{
-	padding:0.6rem 0;
+.friends-prev,.friends-next{
+	padding:0.6rem 0.75rem;
 }
 
 .friends-current{
-	padding:0.6rem 0.75rem;
 	background: #fa7e3e;
 	color:#fff;
 }
