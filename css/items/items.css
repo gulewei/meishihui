@@ -1,3 +1,8 @@
+/***
+ * 作者：秦增福
+ *  时间：2016-10-06
+ *  描述：这是食品做法页面的css
+ */
 section{
 	display: flex;
 	background: #fff8f0;
@@ -51,6 +56,7 @@ section{
 }
 
 .items-banner-li{
+	position:relative;
 	display: inline-flex;
 	width:100%;
 	height:12.5rem;

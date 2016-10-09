@@ -1,3 +1,8 @@
+/***
+ * 作者：秦增福
+ *  时间：2016-10-04
+ *  描述：这是厨友之家页面的css
+ */
 section{
 	display: flex;
 	background: #fff8f0;
@@ -72,7 +77,7 @@ section{
 
 }
 .friends-p1{
-	background:green url(../../imgs/friends/icon1.jpg) no-repeat center;
+	background: url(../../imgs/friends/icon1.jpg) no-repeat center;
 	background-size: 100%;
 }
 .friends-p2{

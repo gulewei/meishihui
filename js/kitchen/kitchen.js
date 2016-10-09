@@ -1,3 +1,8 @@
+/***
+ * 作者：秦增福
+ * 时间：2016年10月7日
+ * 描述：这是个人厨房页面的操作代码
+ */
 $(function(){
 	function name(num){
 		$.get('../json/kitchen.json', function(response){

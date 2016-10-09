@@ -1,3 +1,8 @@
+/***
+ * 作者：秦增福
+ * 时间：2016年10月5日
+ * 描述：这是食谱分类的后台模拟数据
+ */
 $(function(){
 	function name(num){
 		$.get('../json/categories.json', function(response){
@@ -9,13 +14,11 @@ $(function(){
 	}
 	$(".categories-prev").on("tap",function(){
 		var num=parseInt($(".categories-num").html());
-		if(num<6){
-			$(".categories-next").removeClass("categories-current").addClass("categories-current");	
-		}
+		$(".categories-prev").removeClass("categories-current").addClass("categories-current");
 		if(num>2){
-			$(".categories-prev").removeClass("categories-current").addClass("categories-current");
 			$(".categories-num").html(num-1);
 			name(num-2);
+			
 		}else if(num===2){
 			$(".categories-num").html(num-1);
 			name(num-2);
@@ -27,11 +30,8 @@ $(function(){
 	
 	$(".categories-next").on("tap",function(){
 		var num=parseInt($(".categories-num").html());
-		if(num>0){
-			$(".categories-prev").addClass("categories-current");
-		}
+		$(".categories-prev").addClass("categories-current");
 		if(num<5){
-			$(".categories-next").addClass("categories-current");
 			$(".categories-num").html(num+1);
 			name(num);
 		}else if(num===5){
