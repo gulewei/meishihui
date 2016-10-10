@@ -1,10 +1,11 @@
 ## 项目地址
-[gitpages 托管]( https://venecy.github.io/meishihui/)
+gitpages 托管[https://venecy.github.io/meishihui/](https://venecy.github.io/meishihui/)
 
-[heroku 托管](https://meishihui.herokuapp.com/)
+heroku 托管[https://meishihui.herokuapp.com/](https://meishihui.herokuapp.com/)
 
 ## 运行环境
 nodejs 4.4.7
+
 express 4.13.3
 
 
